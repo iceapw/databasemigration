@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: databaseMigration
+  datasource:
+    url: jdbc:mysql://localhost:3306/mydatabase?
+    username: root
+    password: Pa$$w0rd
+    driver-class-name: com.mysql.cj.jdbc.Driver
